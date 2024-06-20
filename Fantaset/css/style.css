@@ -1,0 +1,46 @@
+*{margin: 0; padding: 0;}
+
+li {
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 139, 0.7);
+    border-radius: 50px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu {
+    list-style:none;
+    
+}
+
+nav {
+    background-image: linear-gradient(to left, #2b2a2a 0%, rgb(15, 15, 15) 50%, black 100%);
+    padding: 10px;
+    z-index: +1;
+    
+}
+
+.topbar {
+    justify-content: space-evenly;
+}
+
+main {
+    padding: 15px;
+}
+
+.descricao {
+    padding: 16px;
+    margin: 5px 600px 5px 600px ;
+    background-color: rgba(104, 55, 10, 0.5);
+    justify-content: center;
+}
+
+#descricao {
+    text-indent: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    direction: inherit;
+    line-height: 15px;
+}
